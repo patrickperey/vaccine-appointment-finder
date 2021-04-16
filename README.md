@@ -1,12 +1,15 @@
 # vaccine-appointment-finder
 Automatically be notified once a vaccine appointment is found (CVS, Safeway, MyTurn.ca.gov)
 
- # Supported websites:                                                                                             
+# Supported websites:                                                                                             
  - https://www.cvs.com/vaccine/intake/store/cvd-store-select/first-dose-select
  - https://mhealthcheckin.com/covidappt
  - https://myturn.ca.gov/location-select
+
+# Instructions
+Copy the text in the vaccine-appointment-finder.js file into a text editor
                                                                                                                    
- # Instructions for each URLs listed above
+## Instructions for each URLs listed above
  1. Update ZIP_CODE and CITY_NAME with your zipcode and city name
  2. Select one of the URLs above
  3. Open separate browser tab/window for the URLs above (Fill out forms if needed until the URL is correct)
