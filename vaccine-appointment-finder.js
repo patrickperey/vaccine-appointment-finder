@@ -1,26 +1,29 @@
-/******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************* *
- * Copyright © 2021 @patrickperey                                                                                                                                                                                                                                                                                                                                                                                                                                                *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:                              *
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.                                                                                                                                                                                                                                                                                                                                                *
- * THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  *
- * ***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************** */
+/***
+ * Copyright © 2021 @patrickperey
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ * THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ ***/
 
-/******************************************************************************************************************* *
- * # Supported websites:                                                                                             *
- * - https://www.cvs.com/vaccine/intake/store/cvd-store-select/first-dose-select                                     *
- * - https://mhealthcheckin.com/covidappt                                                                            *
- * - https://myturn.ca.gov/location-select                                                                           *
- *                                                                                                                   *
- * # Instructions for each URLs listed above                                                                         *
- * 1. Update ZIP_CODE and CITY_NAME with your zipcode and city name                                                  *
- * 2. Select one of the URLs above                                                                                   *
- * 3. Open separate browser tab/window for the URLs above (Fill out forms if needed until the URL is correct)        *
- * 4. Open the browser's Javascript Console (ALT-CMD-j). Reference: https://tinyurl.com/chrome-js-console            *
- * 5. Select all text in this file                                                                                   *
- * 6. Paste inside the Javascript Console                                                                            *  
- * 7. Wait for an alarm notifying you of a vaccine appointment availability                                          *
- * 8. Check appointments by searching on the website again OR visit the provided URL                                 *
- * ***************************************************************************************************************** */
+/***
+ * # Supported websites:
+ * - https://www.cvs.com/vaccine/intake/store/cvd-store-select/first-dose-select
+ * - https://mhealthcheckin.com/covidappt
+ * - https://myturn.ca.gov/location-select
+ *
+ * # Instructions
+ * Copy the text in this file into a text editor
+ *
+ * ## Instructions for each URLs listed above
+ * 1. Update ZIP_CODE and CITY_NAME with your zipcode and city name
+ * 2. Select one of the URLs above
+ * 3. Open separate browser tab/window for the URLs above (Fill out forms if needed until the URL is correct)
+ * 4. Open the browser's Javascript Console (ALT-CMD-j). Reference: https://tinyurl.com/chrome-js-console
+ * 5. Select all text in this file
+ * 6. Paste inside the Javascript Console
+ * 7. Wait for an alarm notifying you of a vaccine appointment availability
+ * 8. Check appointments by searching on the website again OR visit the provided URL
+ ***/
 
 /* UPDATE ZIP AND CITY */
 var ZIP_CODE = 94107;
